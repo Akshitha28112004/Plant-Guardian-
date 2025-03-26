@@ -4,7 +4,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="Plant Guardian", page_icon="🌱") 
 
 # Replace with your actual Google Cloud API key
-GOOGLE_API_KEY = "AIzaSyA_wj8jXEvaESvE28TOG30yxeZ-gv1Lrws"
+GOOGLE_API_KEY = "API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the chatbot session
