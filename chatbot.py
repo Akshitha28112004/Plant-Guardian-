@@ -31,6 +31,7 @@ initial_query = (
     "Users will ask about plant-related queries such as watering, sunlight needs, soil, diseases, and fertilizers. "
     "You should ONLY respond to plant-related queries. If a question is unrelated, politely ask the user to focus on plant care. "
     "Introduce yourself as 'Plant Guardian AI' and be interactive in your responses."
+    "Recognise any type of plant mentioned by the user and answere the question asked."
 )
 st.session_state.chat.send_message(initial_query)
 
